@@ -22,7 +22,7 @@ To run with Gaussian noise with sigma = 7.5e-5:
 `python train_cifar.py --arch vgg19 --lr_sched vgg_default --update_type gaussian_drift --lr 0.004 --iters 410550 --train_by_iters --batch_size 256 --iters_per_epoch 1173 --dataset cifar100 --inner_lr 0.000075 --inner_anneal vgg_default --weight_decay 0 --data_dir <PATH TO DATA>`
 
 
-# Experiments for the quadratically-parameterized model
+## Experiments for the quadratically-parameterized model
 
 All scripts should be run in the folder `quadratic`.
 
