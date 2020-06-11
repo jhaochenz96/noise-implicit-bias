@@ -3,7 +3,7 @@
 Code for the paper "Shape Matters: Understanding the Implicit Bias of the Noise Covariance".
 
 ## Experiments for VGG19 model on Cifar100
-The flag ``--update_type`` determines which update to use: standard SGD, adding Gaussian noise, or adding label noise. The flag ``--label_noise`` determines the scale of the label noise that is added, and the flag ``--inner_lr`` determines the scale of Gaussian noise added. All scripts should be run in the folder `cifar100`.
+The flag ``--update_type`` determines which update to use: standard SGD, adding Gaussian noise, or adding label noise. The flag ``--label_noise`` determines the scale of the label noise that is added, and the flag ``--inner_lr`` determines the scale of Gaussian noise added. All scripts should be run in the folder ``cifar100``.
 
 Small batch baseline:
 
@@ -24,7 +24,7 @@ To run with Gaussian noise with sigma = 7.5e-5:
 
 ## Experiments for the quadratically-parameterized model
 
-All scripts should be run in the folder `quadratic`.
+The flag ``--d`` determines the dimension of the model, ``--m`` determines the number of random data, ``--rho`` determines the sparsity of ground truth, ``--alpha`` determines the scale of initialization, ``--opt`` determines the type of noise added to full batch gradient in each iteration, ``--delta`` determines the scale of noise, ``--bs`` determines the batch size that is used to calculate the mini-batch noise. All scripts should be run in the folder ``quadratic``.
 
 Full batch baseline:
 
