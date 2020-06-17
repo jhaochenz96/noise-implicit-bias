@@ -1,6 +1,6 @@
 # Shape Matters: Understanding the Implicit Bias of the Noise Covariance
 
-Code for the paper "Shape Matters: Understanding the Implicit Bias of the Noise Covariance".
+Code for the paper "Shape Matters: Understanding the Implicit Bias of the Noise Covariance". The original paper is [here](https://arxiv.org/abs/2006.08680).
 
 ## Experiments for VGG19 model on Cifar100
 The flag ``--update_type`` determines which update to use: standard SGD, adding Gaussian noise, or adding label noise. The flag ``--label_noise`` determines the scale of the label noise that is added, and the flag ``--inner_lr`` determines the scale of Gaussian noise added. All scripts should be run in the folder ``cifar100``.
